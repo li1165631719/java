@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/day11/customer/util/CMUtility.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day11/customer/view/CustomerView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/exper1/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/exper1/AcountTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/exper1/CheckAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java/PerosnTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java/Person.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java/Student.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java3/SuperTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java4/AnimalTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java4/Man.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java4/Person.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java4/PersonTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day12/java4/Woman.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javahigh/day03/commonQuestion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javahigh/day03/java/StringBufferBuilderTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javahigh/day03/java/StringTest1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javahigh/day04/exer/StringDemo2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day11/customer/util/CMUtility.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day11/customer/view/CustomerView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/exper1/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/exper1/AcountTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/exper1/CheckAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java/PerosnTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java/Person.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java/Student.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java3/SuperTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java4/AnimalTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java4/Man.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java4/Person.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java4/PersonTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day12/java4/Woman.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/javahigh/day03/commonQuestion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/javahigh/day03/java/StringBufferBuilderTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/javahigh/day03/java/StringTest1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/javahigh/day04/exer/StringDemo2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

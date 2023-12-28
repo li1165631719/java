@@ -1,0 +1,63 @@
+1.画图说明线程的生命周期，以及各状态切换使用到的方法等
+状态，方法
+
+      调用start()                获取cpu的执行权
+新建--------------------->就绪  ----------------->运 行  ------------------------->死亡
+                               <-----------------       执行完run()；调用栈的stop()
+                               失去cpu的执行权或yield（）  出现error或EXception
+                                                        且没处理
+
+说明：
+1.生命周期的两个概念：状态和相应的方法
+2.关注：状态a----->状态b；哪些方法执行了（回调方法）
+       某个方法的主动调用：状态a----->状态b
+3.阻塞：临时状态，不可以作为最终状态
+  死亡：最终状态
+
+2.同步代码块中涉及到同步监视器和共享数据，谈谈你对同步监视器和共享数据的理解，以及注意点。
+synchronized(同步监视器){
+	//操作共享数据的代码 （不能包括多了，也不能包括少了）
+}
+
+3. sleep()和wait()的区别
+ * 1.相同点：一点执行方法都可以使得当前的线程进入阻塞状态
+ * 2.不同点：1）两个方法声明的位置不同：Thread类中声明sleep(),Object类中声明的wait()。
+ *         2）调用的要求不同：sleep()方法可以在任何需要的场景下调用。wait()必须使用在同步代码块和同步方法中。
+ *         3）关于是否释放同步监视器：如果两个方法都放在同步代码块或同步方法中，sleep()不会释放锁，wait()会释放锁。
+
+4. 写一个线程安全的懒汉式
+//风险出现在第一次创建的时候，第一次创建的时候，同时调用2次，让instance赋值了两次
+class Bank {
+    private Bank() {
+
+    }
+
+    private static Bank instance = null;
+
+    //静态类就是类本身，Bank.class   不是静态类指的就是this
+    //public static synchronized Bank getInstance(){也相当于给代码块包上synchronized(类.class)
+    public static Bank getInstance() {
+
+        //方式一：效率稍差
+//        synchronized (Bank.class) {
+//            if (instance == null) {
+//                instance = new Bank();
+//            }
+//            return instance;
+//        }
+        //方式二：效率更高
+        if (instance == null) {
+            synchronized (Bank.class) {
+                if (instance == null) {
+                    instance = new Bank();
+               }
+            }
+        }
+        return instance;
+    }
+}
+5. 创建多线程有哪几种方式：4种
+继承Thread类
+实现Runnable接口
+实现Callable接口
+线程池（响应速度提高了，提高了资源的重用率，便于管理）
